@@ -1,0 +1,14 @@
+Instructions for flashing these ESP8200 (NodeMCU Lua) kits for MAC OSX:
+
+install the driver for ch34x (ch340-349). it will make you restart your mac.
+
+then, open esptool-gui:
+115200 baud rate
+use the .bin file, put it under firmware
+hold down the flash button on the board without plugging in the board
+holding down the button, plug in the board and press upload
+you should see dots work across the screen
+once the dots appear, you’re free to stop holding the button
+once the app says exit code 0, unplug and replug the device
+
+connect to pwned with the password deauther. bam. done.
